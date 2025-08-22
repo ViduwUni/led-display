@@ -27,7 +27,7 @@ const messageToMatrix = (text) => {
 };
 
 const App = () => {
-  const [message, setMessage] = useState('HELLO SRI LANKA ❤️');
+  const [message, setMessage] = useState('HELLO VIDUN');
   const [cols, setCols] = useState(BASE_COLS);
   const [scrollIndex, setScrollIndex] = useState(0);
   const [matrix, setMatrix] = useState(Array.from({ length: ROWS }, () => Array(BASE_COLS).fill(0)));
