@@ -1,0 +1,19 @@
+.matrix {
+  display: inline-block;
+  background: black;
+  padding: 10px;
+}
+.row {
+  display: flex;
+}
+.led {
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  border-radius: 2px;
+  background-color: #111;
+  transition: background 0.1s ease-in-out;
+}
+.led.on {
+  background-color: red;
+}
